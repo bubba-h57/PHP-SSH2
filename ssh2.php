@@ -174,7 +174,7 @@ class SSH2 {
 				$callbacks = array('disconnect' => 'Executor::disconnect_cb');
 			}
 		}else{
-			$callbacks = array('disconnect' => 'My_SSH2::disconnect_cb');
+			$callbacks = array('disconnect' => 'SSH2::disconnect_cb');
 		}
 		
 		// Lets make the connection
